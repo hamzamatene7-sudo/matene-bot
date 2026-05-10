@@ -11,7 +11,7 @@ from telegram.ext import (
 NAME, NETWORK, AMOUNT = range(3)
 
 TOKEN = "8669945097:AAEG042Mbnfo-RJOBklmR_tn_rUc3SB5UaM"
-ADMIN_IDS = [7481000246, 8717521879]
+ADMIN_IDS = [7481000246, 8717521879] 
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
