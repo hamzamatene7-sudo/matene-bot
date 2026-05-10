@@ -73,7 +73,6 @@ async def get_amount(update: Update, context: ContextTypes.DEFAULT_TYPE):
 👤 الاسم: {name}
 📶 الشبكة: {network}
 💰 المبلغ: {amount}
-💰 المبلغ: {amount}
 """
 
     for admin_id in ADMIN_IDS:
