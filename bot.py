@@ -48,7 +48,7 @@ async def get_network(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [KeyboardButton("5000 دج"), KeyboardButton("10000 دج")],
         [KeyboardButton("15000 دج"), KeyboardButton("20000 دج")],
         [KeyboardButton("25000 دج"), KeyboardButton("30000 دج")],
-    
+    ]   
 
     await update.message.reply_text(
         "اختار المبلغ:",
