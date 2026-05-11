@@ -11,7 +11,7 @@ from telegram.ext import (
 NAME, NETWORK, AMOUNT = range(3)
 
 TOKEN = "8669945097:AAEG042Mbnfo-RJOBklmR_tn_rUc3SB5UaM"
-ADMIN_ID = 7481000246
+GROUP_ID = -5171309736
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -76,7 +76,7 @@ async def get_amount(update: Update, context: ContextTypes.DEFAULT_TYPE):
 """
 
     await context.bot.send_message(
-        chat_id=ADMIN_ID,
+        chat_id=GROUP_ID,
         text=text
     )
 
